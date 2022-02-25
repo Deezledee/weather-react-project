@@ -1,8 +1,8 @@
-body {
+.Weather body {
   background-color: #f0ece3;
 }
 
-h1 {
+.Weather h1 {
   color: rgba(46, 119, 141, 0.459);
   display: block;
   text-align: center;
@@ -11,14 +11,14 @@ h1 {
   font-weight: bolder;
 }
 
-.form-control {
+.Weather .form-control {
   max-width: 300px;
   display: block;
   margin: auto;
   text-align: center;
 }
 
-.btn-success {
+.Weather .btn-success {
   color: #fff;
   background-color: #237b9b;
   margin: 4px 4px 0;
@@ -27,19 +27,19 @@ h1 {
   text-align: center;
 }
 
-.btn-success:hover {
+.Weather .btn-success:hover {
   background-color: #8bbae3;
   opacity: 0.9;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-.images {
+.Weather .images {
   align-items: center;
   margin: auto;
 }
 
-h2 {
+.Weather h2 {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -49,13 +49,13 @@ h2 {
   font-weight: bold;
 }
 
-form {
+.Weather form {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
-p {
+.Weather p {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -65,7 +65,7 @@ p {
   font-weight: normal;
 }
 
-.todayDescription {
+.Weather .todayDescription {
   margin: 0 auto;
   text-align: center;
   font-size: large;
@@ -75,12 +75,12 @@ p {
   text-transform: capitalize;
 }
 
-.weather-icon {
+.Weather .weather-icon {
   align-items: center;
   width: 60px;
 }
 
-.paremeters {
+.Weather .paremeters {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -91,7 +91,7 @@ p {
   text-transform: capitalize;
 }
 
-.windspeed {
+.Weather .windspeed {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -101,19 +101,19 @@ p {
   color: #7c99ac;
 }
 
-.weather-forecast {
+.Weather .weather-forecast {
   margin: 0 auto;
   text-align: center;
   font-size: small;
   font-family: "Shadows Into Light", cursive;
 }
 
-.weather-forecast-date {
+.Weather .weather-forecast-date {
   font-size: 16px;
   font-family: "Shadows Into Light", cursive;
 }
 
-h3 {
+.Weather h3 {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -123,24 +123,25 @@ h3 {
   font-weight: normal;
 }
 
-.weather-forecast-temperature-min {
+.Weather .weather-forecast-temperature-min {
   font-size: 16px;
   color: grey;
   font-family: "Shadows Into Light", cursive;
 }
-.weather-forecast-temperatures {
+
+.Weather .weather-forecast-temperatures {
   font-size: 16px;
   color: #237b9b;
   font-family: "Shadows Into Light", cursive;
 }
 
-.images {
+.Weather .images {
   display: inline;
   align-items: center;
   margin: 0 auto;
 }
 
-.codedby {
+.Weather .codedby {
   color: grey;
   font-family: "Shadows Into Light", cursive;
   font-size: large;
