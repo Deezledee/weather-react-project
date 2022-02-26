@@ -82,6 +82,33 @@ export default function Weather() {
                 {" "}
                 {weatherData.temperature}°{" "}
               </span>
+
+              <footer class="codedby">
+                Coded by
+                <a
+                  href="https://www.shecodes.io/students/503-diana-kalstein"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Diana Kalstein ©️
+                </a>
+                , is
+                <a
+                  href="https://github.com/Deezledee/Weather-App-Diana-K.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  open-sourced on GitHub
+                </a>
+                and is
+                <a
+                  href="https://adoring-kowalevski-9714eb.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  hosted on Netlify
+                </a>
+              </footer>
             </div>
           </div>
         </div>
