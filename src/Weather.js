@@ -88,6 +88,29 @@ export default function Weather() {
                 <br />
               </div>
 
+              <div className="text-center" className="images">
+                <img
+                  class="farm"
+                  src="src/seashell.jpg"
+                  alt="seashell"
+                  width="400"
+                />
+                <img
+                  className="sunflower2"
+                  src="src/sunflower2.jpg"
+                  alt="sunflower2"
+                  width="400"
+                />
+                <img
+                  className="horse2"
+                  src="src/horse2.jpg"
+                  alt="horse2"
+                  width="400"
+                />
+              </div>
+              <br />
+              <br />
+
               <footer class="codedby">
                 Coded by{" "}
                 <span>
