@@ -86,30 +86,37 @@ export default function Weather() {
               <br />
 
               <footer class="codedby">
-                Coded by
-                <a
-                  href="https://www.shecodes.io/students/503-diana-kalstein"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Diana Kalstein ©️
-                </a>
+                Coded by{" "}
+                <span>
+                  <a
+                    href="https://www.shecodes.io/students/503-diana-kalstein"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Diana Kalstein ©️
+                  </a>
+                </span>
                 , is
-                <a
-                  href="https://github.com/Deezledee/Weather-App-Diana-K.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  open-sourced on GitHub
-                </a>
+                <span>
+                  <a
+                    href="https://github.com/Deezledee/Weather-App-Diana-K.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    open-sourced on GitHub
+                  </a>
+                </span>
                 and is
-                <a
-                  href="https://adoring-kowalevski-9714eb.netlify.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  hosted on Netlify
-                </a>
+                <span>
+                  <a
+                    href="https://adoring-kowalevski-9714eb.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    hosted on Netlify
+                  </a>
+                </span>
               </footer>
             </div>
           </div>
