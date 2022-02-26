@@ -105,7 +105,7 @@ export default function Weather() {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    open-sourced on GitHub
+                    open-sourced on GitHub{" "}
                   </a>
                 </span>
                 and is{" "}
