@@ -90,7 +90,7 @@ export default function Weather() {
 
               <div className="text-center" className="images">
                 <img
-                  class="farm"
+                  className="farm"
                   src="src/seashell.jpg"
                   alt="seashell"
                   width="400"
@@ -111,7 +111,7 @@ export default function Weather() {
               <br />
               <br />
 
-              <footer class="codedby">
+              <footer className="codedby">
                 Coded by{" "}
                 <span>
                   <a
