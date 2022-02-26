@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather() {
   let weatherData = {
@@ -85,42 +86,42 @@ export default function Weather() {
                 </span>
                 <br />
                 <br />
-
-                <footer class="codedby">
-                  Coded by{" "}
-                  <span>
-                    <a
-                      href="https://www.shecodes.io/students/503-diana-kalstein"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      Diana Kalstein ©️
-                    </a>
-                  </span>
-                  , is{" "}
-                  <span>
-                    <a
-                      href="https://github.com/Deezledee/Weather-App-Diana-K.git"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      open-sourced on GitHub{" "}
-                    </a>
-                  </span>
-                  and is{" "}
-                  <span>
-                    <a
-                      href="https://adoring-kowalevski-9714eb.netlify.app"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      hosted on Netlify
-                    </a>
-                  </span>
-                </footer>
               </div>
+
+              <footer class="codedby">
+                Coded by{" "}
+                <span>
+                  <a
+                    href="https://www.shecodes.io/students/503-diana-kalstein"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Diana Kalstein ©️
+                  </a>
+                </span>
+                , is{" "}
+                <span>
+                  <a
+                    href="https://github.com/Deezledee/Weather-App-Diana-K.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    open-sourced on GitHub{" "}
+                  </a>
+                </span>
+                and is{" "}
+                <span>
+                  <a
+                    href="https://adoring-kowalevski-9714eb.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    hosted on Netlify
+                  </a>
+                </span>
+              </footer>
             </div>
           </div>
         </div>
