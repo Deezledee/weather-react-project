@@ -82,6 +82,8 @@ export default function Weather() {
                 {" "}
                 {weatherData.temperature}°{" "}
               </span>
+              <br />
+              <br />
 
               <footer class="codedby">
                 Coded by
