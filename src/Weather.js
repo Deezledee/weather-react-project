@@ -97,17 +97,18 @@ export default function Weather() {
                     Diana Kalstein ©️
                   </a>
                 </span>
-                , is
+                , is{" "}
                 <span>
                   <a
                     href="https://github.com/Deezledee/Weather-App-Diana-K.git"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    {" "}
                     open-sourced on GitHub
                   </a>
                 </span>
-                and is
+                and is{" "}
                 <span>
                   <a
                     href="https://adoring-kowalevski-9714eb.netlify.app"
