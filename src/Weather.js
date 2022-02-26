@@ -36,7 +36,7 @@ export default function Weather() {
       <p>
         <span className="today-temperature">19</span>
         <span className="units">
-          <a href="#">°C</a> |<a href="#">°F</a>
+          <a href="/">°C</a> |<a href="/">°F</a>
         </span>
         <br />
       </p>
