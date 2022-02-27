@@ -68,7 +68,7 @@ export default function Weather() {
 
         <div className="weather-forecast">
           <div className="row">
-            <div className="col-2">
+            <div className="col-12">
               <div className="weather-forecast-date">Thu</div>
               <img
                 src="http://openweathermap.org/img/wn/50d@2x.png"
