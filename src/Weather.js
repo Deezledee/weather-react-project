@@ -88,7 +88,7 @@ export default function Weather() {
                 <br />
               </div>
 
-              <div className="text-center" className="images">
+              <div className="text-center images">
                 <img
                   className="farm"
                   src="src/seashell.jpg"
