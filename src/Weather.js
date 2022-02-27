@@ -92,19 +92,19 @@ export default function Weather() {
                 <img
                   className="seashell"
                   src="images/seashell.jpg"
-                  alt="seashell"
+                  alt=""
                   width="400"
                 />
                 <img
                   className="sunflower2"
                   src="images/sunflower2.jpg"
-                  alt="sunflower2"
+                  alt=""
                   width="400"
                 />
                 <img
                   className="horse2"
                   src="images/horse2.jpg"
-                  alt="horse2"
+                  alt=""
                   width="400"
                 />
               </div>
