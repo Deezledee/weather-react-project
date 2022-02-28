@@ -10,7 +10,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
-      wind: response.data.main.wind.speed,
+      wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       iconUrl: "http://openweathermap.org/img/wn/50d@2x.png",
