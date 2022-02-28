@@ -1,5 +1,5 @@
 import React from "react";
-import sunflower2 from "./sunflower2.jpg";
+import sunflower2 from ".images/sunflower2.jpg";
 
 function Sunflower2() {
   console.log(sunflower2);
