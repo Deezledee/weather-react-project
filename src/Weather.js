@@ -43,10 +43,9 @@ export default function Weather(props) {
           <h2>Today in {weatherData.city}</h2>
           <br />
           <p>
-            {" "}
             <span className="today-temperature">
               {Math.round(weatherData.temperature)}
-            </span>
+            </span>{" "}
             <span className="units">
               <a href="/">°C</a> |<a href="/">°F</a>
             </span>
