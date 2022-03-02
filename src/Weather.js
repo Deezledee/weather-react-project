@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
+      date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
@@ -42,6 +43,7 @@ export default function Weather(props) {
 
           <h2>Today in {weatherData.city}</h2>
           <br />
+          <FormattedDate date={weatherData.date} />
           <p>
             <span className="today-temperature">
               {Math.round(weatherData.temperature)}
