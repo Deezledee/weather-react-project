@@ -39,7 +39,6 @@ export default function WeatherInfo (props){
           {" "}
           <h3 className="date">{weatherData.date}</h3>
           {" "}
-
           <div className="weather-forecast">
             <div className="row">
               <div className="col-12">
