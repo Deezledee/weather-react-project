@@ -4,9 +4,11 @@ import FormattedDate from "./FormattedDate";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
+      {" "}
       <h2>Today in {props.data.city}</h2>{" "}
       <p>
         <span className="today-temperature">
+          {" "}
           {Math.round(props.data.temperature)}
         </span>{" "}
         <span className="units">
@@ -21,8 +23,7 @@ export default function WeatherInfo(props) {
           className="float-right"
           width="50px"
         />
-      </div>
-      {""}
+      </div>{" "}
       <div className="row paremeters">
         <div className="col humidity">
           💧 Humidity: <span>{props.data.humidity}</span>%
