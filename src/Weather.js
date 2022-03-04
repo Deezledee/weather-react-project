@@ -56,6 +56,7 @@ export default function Weather(props) {
               Current location <span>📍</span>
             </button>
           </form>
+          <br />
           <WeatherInfo data={weatherData} />
 
           <div className="text-center images">
