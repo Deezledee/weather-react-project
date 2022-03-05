@@ -10,18 +10,8 @@ export default function WeatherInfo(props) {
       <h2>Today in {props.data.city}</h2>{" "}
       <p>
         <div className="text-center">
-          <WeatherTemperature celsius={props.data.temperature} />
+          <WeatherTemperature celsius={Math.round(props.data.temperature)} />
         </div>
-        <div className="float-left">
-          <WeatherIcon code={props.data.icon} />
-        </div>
-        <span className="today-temperature">
-          {" "}
-          {Math.round(props.data.temperature)}
-        </span>{" "}
-        <span className="units">
-          <a href="/">°C</a> |<a href="/">°F</a>
-        </span>{" "}
       </p>
       <div className="todayDescription">
         <span className="text-capitalize">{props.data.description}</span>
