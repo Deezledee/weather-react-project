@@ -12,6 +12,9 @@ export default function WeatherInfo(props) {
         <div className="text-center">
           <WeatherTemperature celsius={Math.round(props.data.temperature)} />
         </div>
+        <div className="float-left">
+          <WeatherIcon code={props.data.icon} />
+        </div>
       </p>
       <div className="todayDescription">
         <span className="text-capitalize">{props.data.description}</span>
