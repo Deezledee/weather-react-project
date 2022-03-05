@@ -17,6 +17,9 @@ export default function WeatherInfo(props) {
           <a href="/">°C</a> |<a href="/">°F</a>
         </span>{" "}
       </p>
+      <div className="float-left">
+        <WeatherTemperature celsius={props.data.temperature} />
+      </div>
       <div className="todayDescription">
         <span className="text-capitalize">{props.data.description}</span>
         <img
@@ -44,10 +47,6 @@ export default function WeatherInfo(props) {
             <div className="weather-forecast-date">Thu</div>
             <div className="float-left">
               <WeatherIcon code={props.data.icon} />
-            </div>
-
-            <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
             </div>
 
             <div className="weather-forecast-temperatures"></div>
