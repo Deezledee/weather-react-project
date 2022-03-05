@@ -9,6 +9,12 @@ export default function WeatherInfo(props) {
       {" "}
       <h2>Today in {props.data.city}</h2>{" "}
       <p>
+        <div className="float-left">
+          <WeatherTemperature celsius={props.data.temperature} />
+        </div>
+        <div className="float-left">
+          <WeatherIcon code={props.data.icon} />
+        </div>
         <span className="today-temperature">
           {" "}
           {Math.round(props.data.temperature)}
@@ -45,9 +51,6 @@ export default function WeatherInfo(props) {
         <div className="row">
           <div className="col-12">
             <div className="weather-forecast-date">Thu</div>
-            <div className="float-left">
-              <WeatherIcon code={props.data.icon} />
-            </div>
 
             <div className="weather-forecast-temperatures"></div>
           </div>
